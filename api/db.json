@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "email": "regular@example.com",
+      "password": "$2a$10$2myKMolZJoH.q.cyXClQXufY1Mc7ETKdSaQQCC6Fgtbe0DCXRBELG",
+      "id": 1
+    },
+    {
+      "email": "admin@example.com",
+      "password": "$2a$10$w8qB40MdYkMs3dgGGf0Pu.xxVOOzWdZ5/Nrkleo3Gqc88PF/OQhOG",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": "hdmdu0t80yjkfqselfc",
+      "category": "Mujer",
+      "name": "shoes",
+      "stock": 10,
+      "price": 399.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "5"
+
+    },
+    {
+      "id": "3dc7fiyzlfmkfqseqam",
+      "category": "Hombre",
+      "name": "bags",
+      "stock": 20,
+      "price": 299.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "3"
+    },
+    {
+      "id": "aoe8wvdxvrkfqsew67",
+      "category": "Niños",
+      "name": "shirts",
+      "stock": 15,
+      "price": 149.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "4"
+    },
+    {
+      "id": "bmfrurdkswtkfqsf15j",
+      "category": "Mujer",
+      "name": "shorts",
+      "stock": 5,
+      "price": 109.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "1"
+    },
+    {
+      "id": "bmfrurdkswtkfqsf15j",
+      "category": "Mujer",
+      "name": "shorts",
+      "stock": 5,
+      "price": 109.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "2"
+    },
+    {
+      "id": "bmfrurdkswtkfqsf15j",
+      "category": "Niños",
+      "name": "shorts",
+      "stock": 5,
+      "price": 109.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "3"
+    },
+    {
+      "id": "bmfrurdkswtkfqsf15j",
+      "category": "Hombre",
+      "name": "shorts",
+      "stock": 5,
+      "price": 109.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "5"
+    },
+    {
+      "id": "bmfrurdkswtkfqsf15j",
+      "category": "Hombre",
+      "name": "shorts",
+      "stock": 5,
+      "price": 109.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": "2"
+    }
+  ],
+  "featured": [
+    {
+      "id": "hdmdu0t80yjkfqselfc",
+      "name": "shoes",
+      "stock": 10,
+      "price": 399.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": ""
+    },
+    {
+      "id": "3dc7fiyzlfmkfqseqam",
+      "name": "bags",
+      "stock": 20,
+      "price": 299.99,
+      "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": ""
+    }
+  ],
+  "coupons": [
+    {
+      "id": "hdmdu0t80oooooselfc",
+      "name": "Dscto 10%",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": ""
+    },
+    {
+      "id": "hdmdu0t80yppppppelfc",
+      "name": "Dscto 20%",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": ""
+    },    {
+      "id": "hdmdu0t80yuuuuuelfc",
+      "name": "Dscto 30%",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": ""
+    },    {
+      "id": "hdmdu0t80ytyhhhelfc",
+      "name": "Dscto 40%",
+      "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
+      "assessment": ""
+    }
+  ],
+  "shops": [
+    {
+      "id": "aaa01",
+      "name": "Falabella",
+      "logo": "https://static.t13.cl/images/original/2019/04/1556123191-94660bb3-16e4-45f3-b79a-bd4b224c308b.jpg"
+    },
+    {
+      "id": "aaa02",
+      "name": "Ripley",
+      "logo": "https://www.smoothskin.com/cl/wp-content/uploads/sites/14/2018/01/ripley-logo.png"
+    },    {
+      "id": "aaa03",
+      "name": "Paris",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Logo_Paris_Cencosud.png"
+    },    {
+      "id": "aaa04",
+      "name": "Linio",
+      "logo": "https://caphome.cl/wp-content/uploads/2018/10/Logo-Linio.jpg"
+    }
+  ],
+  "marcas": [
+    {
+      "id": "aaa01",
+      "name": "Gucci",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/1960s_Gucci_Logo.svg/1200px-1960s_Gucci_Logo.svg.png"
+    },
+    {
+      "id": "aaa02",
+      "name": "Polo Ralph Lauren",
+      "logo": "https://cdn.shopify.com/s/files/1/1003/1940/files/USPolo2_grande.jpg?v=1530217777"
+    },    {
+      "id": "aaa03",
+      "name": "Calvin Klein",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/CK_Calvin_Klein_logo.svg/1200px-CK_Calvin_Klein_logo.svg.png"
+    },
+    {
+      "id": "aaa04",
+      "name": "Nike",
+      "logo": "https://i.pinimg.com/originals/ea/10/72/ea10725c9063e64f80aa3889fcab9471.png"
+    },
+    {
+      "id": "aaa04",
+      "name": "Adidas",
+      "logo": "https://tentulogo.com/wp-content/uploads/Adidas-FB.jpg"
+    },
+    {
+      "id": "aaa04",
+      "name": "Tommy Hilfiger",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsE4tsL4zvkTwo8B_33PYk780jKrTAHs9J-A&usqp=CAU"
+    },
+    {
+      "id": "aaa04",
+      "name": "Forever 21",
+      "logo": "https://www.altolascondes.cl/sites/altolascondes/files/logo_1000_1.png"
+    },
+    {
+      "id": "aaa04",
+      "name": "Target",
+      "logo": "https://1000marcas.net/wp-content/uploads/2020/03/Target-S%C3%ADmbolo.jpg"
+    },
+    {
+      "id": "aaa04",
+      "name": "Marshalls",
+      "logo": "https://www.findingzest.com/wp-content/uploads/2010/04/Marshalls-Logo.jpg"
+    }
+  ]
+}
