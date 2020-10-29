@@ -12,6 +12,8 @@ import Slider from './components/Slider'
 
 //SECCIONES
 import { NotFound } from './view/NotFound';
+import Marcas from './view/Marcas';
+
 
 
 
@@ -48,8 +50,8 @@ const App = () => {
             <Route exact path="/hombre" component={Hombres} />
             <Route exact path="/kids" component={Kids} />
             <Route exact path="/products" component={Products} />
-            <Route exact path="/tiendas" component={Tiendas} />
-            <Route exact path="/marcas" component={Marcas} /> */}
+            <Route exact path="/tiendas" component={Tiendas} />*/}
+            <Route exact path="/marcas" component={Marcas} /> 
                   <Route render={() => <h1 className="notfound">Not found!</h1>} />
                 </Switch>
               </div>
