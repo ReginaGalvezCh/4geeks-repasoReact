@@ -1,10 +1,11 @@
+/* eslint-disable no-lone-blocks */
 import React from 'react'
 import { Context } from "../store/appContext";
-import {Card, Button} from 'react-bootstrap'
+import {CardDeck, Card, Button} from 'react-bootstrap'
 
 
 const CategoriaMujer = (props) => {
-    const {store, actions} = Context();
+    const {store} = Context();
 
 
     return (
@@ -12,7 +13,7 @@ const CategoriaMujer = (props) => {
         <h1>Categoria Mujer</h1>
         <CardDeck>
             {store.productList.map((element, index) => {
-                {if(element.category === 'Mujer'){
+                
                     return (
                         <>
                             <Card key={index}>
@@ -36,11 +37,12 @@ const CategoriaMujer = (props) => {
                             </Card>                                                
                         </>
                         )
-                    }}
-                })
-            }
+                    }
+                )
+                }
         </CardDeck>
-    </>)
+    </>
+    )
 }
 
 export default CategoriaMujer;
