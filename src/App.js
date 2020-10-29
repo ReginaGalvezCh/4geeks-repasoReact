@@ -14,6 +14,7 @@ import { Home } from './view/Home.jsx';
 import Favorites from './view/Favorites.jsx';
 import { NotFound } from './view/NotFound';
 import Register from './view/Register';
+import Kids from './view/Kids';
 
 
 
@@ -149,7 +150,7 @@ const App = () => {
 
           </div>
         
-
+          <Kids />
         </div>
     </>
   );
