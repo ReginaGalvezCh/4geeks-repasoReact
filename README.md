@@ -25,6 +25,9 @@ B .- Mock de API usando [json-server](https://github.com/typicode/json-server)
 
 - [json-server](https://github.com/typicode/json-server)
 
+- [concurrently](https://github.com/kimmobrunfeldt/concurrently#readme)
+
+
 
 
 <h2>Instalación:</h2>
