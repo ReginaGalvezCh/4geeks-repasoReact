@@ -13,7 +13,6 @@ import Slider from './components/Slider'
 import { NotFound } from './view/NotFound';
 
 
-
 const App = () => {
   
   return (
