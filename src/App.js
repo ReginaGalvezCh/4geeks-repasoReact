@@ -10,10 +10,7 @@ import NavBarTop from './components/NavBarTop.jsx'
 import Slider from './components/Slider'
 
 //SECCIONES
-import { Home } from './view/Home.jsx';
-import Favorites from './view/Favorites.jsx';
 import { NotFound } from './view/NotFound';
-import Register from './view/Register';
 
 
 
