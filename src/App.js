@@ -12,6 +12,7 @@ import Slider from './components/Slider'
 
 //SECCIONES
 import { NotFound } from './view/NotFound';
+import Products from "./view/Products"
 
 
 
