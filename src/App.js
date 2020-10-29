@@ -20,22 +20,6 @@ const App = () => {
 
     <>
 
-      <BrowserRouter>
-        <div>
-          <Switch>
-            <Route exact path="/index.html" component={Inicio} />
-            <Route exact path="/" component={Inicio}/>
-            <Route exact path="/mujer" component={Mujer} />
-            <Route exact path="/hombre" component={Hombres} />
-            <Route exact path="/ninos" component={Niños} />
-            <Route exact path="/productos" component={Productos} />
-            <Route exact path="/tiendas" component={Tiendas} />
-            <Route exact path="/marcas" component={Marcas} />
-            <Route render={() => <h1 className="notfound">Not found!</h1>} />
-          </Switch>
-        </div>
-      </BrowserRouter>
-
       <NavBarTop />
       <div className="container">
 
@@ -53,6 +37,23 @@ const App = () => {
           </div>
 
           <div className="col-lg-9">
+
+            <BrowserRouter>
+              <div>
+                <Switch>
+                  {/* <Route exact path="/index.html" component={Inicio} />
+            <Route exact path="/" component={Inicio}/>
+            <Route exact path="/mujer" component={Mujer} />
+            <Route exact path="/hombre" component={Hombres} />
+            <Route exact path="/kids" component={Kids} />
+            <Route exact path="/products" component={Products} />
+            <Route exact path="/tiendas" component={Tiendas} />
+            <Route exact path="/marcas" component={Marcas} /> */}
+                  <Route render={() => <h1 className="notfound">Not found!</h1>} />
+                </Switch>
+              </div>
+            </BrowserRouter>
+
 
             <Slider />
 
