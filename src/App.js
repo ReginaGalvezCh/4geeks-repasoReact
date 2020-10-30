@@ -12,7 +12,7 @@ import Slider from './components/Slider'
 
 //SECCIONES
 import { NotFound } from './view/NotFound';
-
+import Mujer from './view/Mujer'
 
 const App = () => {
 
@@ -41,7 +41,7 @@ const App = () => {
             <BrowserRouter>
               <div>
                 <Switch>
-                  {/* <Route exact path="/index.html" component={Inicio} />
+            {/* 
             <Route exact path="/" component={Inicio}/>
             <Route exact path="/mujer" component={Mujer} />
             <Route exact path="/hombre" component={Hombres} />

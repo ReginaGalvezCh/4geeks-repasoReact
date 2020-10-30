@@ -1,27 +1,34 @@
 /* eslint-disable no-lone-blocks */
-import React from 'react'
+import React, {useEffect, useContext} from 'react'
 import { Context } from "../store/appContext";
-import {CardDeck, Card, Button} from 'react-bootstrap'
+import {Card, Button, CardGroup} from 'react-bootstrap'
 
 
-const CategoriaMujer = (props) => {
-    const {store} = Context();
+const Mujer = (props) => { 
+    const {store, actions} = useContext(Context);
 
+    useEffect(() => {
+        actions.getProducts()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[]);
+
+    const itemMujeres = store.productList.filter((element,index) => {
+        return element.category === 'Mujer'
+    })
 
     return (
-    <>
-        <h1>Categoria Mujer</h1>
-        <CardDeck>
-            {store.productList.map((element, index) => {
-                
-                    return (
-                        <>
-                            <Card key={index}>
+        <div className='container-fluid'>
+            <h1 className='text-center' style={{margin: '30px'}}>Categoria Mujer</h1>
+            <CardGroup className='flew-wrap'>
+                <div className='row'>
+                {itemMujeres.map((element, index) => {
+                    return ( 
+                            <Card key={index} className='col-4'>
                                 <Card.Img variant="top" src="holder.js/100px180" />
                                 <Card.Body>
                                     <Card.Title>{element.name}</Card.Title>
                                     <Card.Text>
-                                        {element.stock}
+                                        stock: {element.stock}
                                     </Card.Text>
                                     <Card.Text>
                                         {element.price}
@@ -35,14 +42,15 @@ const CategoriaMujer = (props) => {
                                     <Button  className='mx-2' variant="primary">View More</Button>
                                 </Card.Body>
                             </Card>                                                
-                        </>
-                        )
+                        
+                            )
+                        }
+                    )
                     }
-                )
-                }
-        </CardDeck>
-    </>
-    )
+                    </div>
+            </CardGroup>
+        </div>
+        )
 }
 
-export default CategoriaMujer;
+export default Mujer;
