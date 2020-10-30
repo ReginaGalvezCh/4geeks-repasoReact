@@ -33,28 +33,20 @@ const App = () => {
                 <Switch>
                   <Route exact path="/" component={Home}/>
                   {/* <Route exact path="/index.html" component={Inicio} />
-            <Route exact path="/mujer" component={Mujer} />
-            <Route exact path="/hombre" component={Hombres} />
-            <Route exact path="/kids" component={Kids} />
-            <Route exact path="/products" component={Products} />
-            <Route exact path="/tiendas" component={Tiendas} />*/}
-            <Route exact path="/marcas" component={Marcas} /> 
+                  <Route exact path="/mujer" component={Mujer} />
+                  <Route exact path="/hombre" component={Hombres} />
+                  <Route exact path="/kids" component={Kids} />
+                  <Route exact path="/products" component={Products} />
+                  <Route exact path="/tiendas" component={Tiendas} />*/}
+
+                  <Route exact path="/marcas" component={Marcas} /> 
                   <Route render={() => <h1 className="notfound">Not found!</h1>} />
                 </Switch>
               </div>
             </BrowserRouter>
 
 
-            {/* <Slider /> */}
-
-
-            
-
-
-          {/* </div>
-
-
-        </div> */}
+          
 
 
       </div>
