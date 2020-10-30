@@ -5,6 +5,7 @@ import { faFemale, faHatCowboy, faChild } from '@fortawesome/free-solid-svg-icon
 
 import { Row, Col } from 'react-bootstrap';
 
+import injectContext from './store/appContext'
 
 import NavBarTop from './components/NavBarTop.jsx'
 import Slider from './components/Slider'
@@ -170,4 +171,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default injectContext(App);
