@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Context } from "../store/appContext";
-import { CardDeck, Card, Button } from "react-bootstrap"
+import Card from "../components/Card"
 
 
 const Products = () => {
@@ -13,12 +13,17 @@ const Products = () => {
     return (
         <>
             <h1>productos</h1>
-            {
-                store.productList.map((item, index) => {
-                    return (
-                        <h2>card</h2>
-                    )
-                })}
+            <div className="row">
+                {
+                    store.productList.map((item, index) => {
+                        return (
+                            <div className="col-lg-4 col-md-6 mb-4">
+                                <Card key={index} name={item.name} price={item.price} descripttion={item.description} assessment={item.assessment} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </>
     )
 }
