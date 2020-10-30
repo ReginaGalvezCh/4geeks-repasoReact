@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Context } from "../store/appContext";
 import { Card } from "react-bootstrap";
 
-const Card = (props) => {
+const CardProducts = (props) => {
   const { store, actions } = useContext(Context);
 
   useEffect(() => {
@@ -22,4 +22,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default CardProducts;
