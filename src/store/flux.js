@@ -25,7 +25,20 @@ const getState = ({ getStore, setStore }) => {
 				const json = await response.json();
 				setStore({ productList: json });
 			},
-			
+			getBrands: async () => {
+				const config = {
+					method: "GET",
+					headers: {
+						"Content-type": "application/json"
+					}
+				};
+				const response = await fetch(
+					"http://localhost:3001/marcas",
+					config
+				);
+				const json = await response.json();
+				setStore({ brandList: json });
+			},
 		}
 	};
 };
