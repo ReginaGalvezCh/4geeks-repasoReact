@@ -12,6 +12,8 @@ import Slider from './components/Slider'
 
 //SECCIONES
 import { NotFound } from './view/NotFound';
+import Register from './view/Register';
+import Kids from './view/Kids';
 import Marcas from './view/Marcas';
 
 
