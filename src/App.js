@@ -45,10 +45,6 @@ const App = () => {
               </div>
             </BrowserRouter>
 
-
-          
-
-
       </div>
     </>
   );
