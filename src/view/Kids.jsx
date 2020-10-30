@@ -6,7 +6,7 @@ const Kids = (props, id) => {
         <>
             <h1>Sección Niños</h1>
 
-            {store.productList.map((item, index) => {
+            {/* {store.productList.map((item, index) => {
                 return (
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="https://wrmx00.epimg.net/radio/imagenes/2019/04/28/en_fin/1556471650_774468_1556472061_noticia_normal.jpg" />
@@ -23,7 +23,7 @@ const Kids = (props, id) => {
                         </Card.Body>
                     </Card>
                 )
-            })}
+            })} */}
 
         </>
     )
