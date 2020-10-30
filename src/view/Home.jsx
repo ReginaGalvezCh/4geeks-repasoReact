@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFemale, faHatCowboy, faChild } from '@fortawesome/free-solid-svg-icons'
 import Slider from '../components/Slider'
+import FeaturedList from '../components/FeaturedList'
 
 const Home = () =>{
 
@@ -19,6 +20,7 @@ return (
 
         <div className="col-lg-9">
             <Slider/>
+            <FeaturedList/>
         </div>
     </div>
 
