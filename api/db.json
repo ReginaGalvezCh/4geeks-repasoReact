@@ -18,6 +18,7 @@
       "name": "shoes",
       "stock": 10,
       "price": 399.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOad95r_CEFfZCeESuRul7NqKdKmVo3EbM2w&usqp=CAU",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "5"
@@ -29,6 +30,7 @@
       "name": "bags",
       "stock": 20,
       "price": 299.99,
+      "image": "https://i.etsystatic.com/16164065/r/il/1dcd98/2028341188/il_570xN.2028341188_pt3d.jpg",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "3"
@@ -39,6 +41,7 @@
       "name": "shirts",
       "stock": 15,
       "price": 149.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4lLmZ59FGksSg-NmXxi4vQkKOEM4X4uFNXA&usqp=CAU",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "4"
@@ -49,6 +52,7 @@
       "name": "shorts",
       "stock": 5,
       "price": 109.99,
+      "image": "https://img.ltwebstatic.com/images3_pi/2020/04/20/158737673348080df49438164f3154cb5fcf278604_thumbnail_900x.webp",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "1"
@@ -59,6 +63,7 @@
       "name": "shorts",
       "stock": 5,
       "price": 109.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9RV04m3d9Qb7P2DqTnMxTlqbVjB0WrjdwPA&usqp=CAU",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "2"
@@ -69,6 +74,7 @@
       "name": "shorts",
       "stock": 5,
       "price": 109.99,
+      "image": "https://i.pinimg.com/236x/ac/dc/2d/acdc2dd42e02655f77c1cfac279c33bb--anchor-shorts-hm-kids.jpg",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "3"
@@ -79,6 +85,7 @@
       "name": "shorts",
       "stock": 5,
       "price": 109.99,
+      "image": "https://dafitistaticcl-a.akamaihd.net/p/lippi-2719-128838-1-product.jpg",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "5"
@@ -89,6 +96,7 @@
       "name": "shorts",
       "stock": 5,
       "price": 109.99,
+      "image": "https://i.pinimg.com/originals/1b/29/80/1b2980b3024c11ac79104ea4a67ce8dd.jpg",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": "2"
@@ -100,6 +108,7 @@
       "name": "shoes",
       "stock": 10,
       "price": 399.99,
+      "image": "",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": ""
@@ -109,6 +118,7 @@
       "name": "bags",
       "stock": 20,
       "price": 299.99,
+      "image": "",
       "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
       "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam.",
       "assessment": ""

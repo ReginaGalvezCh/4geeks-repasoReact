@@ -5,7 +5,7 @@ import { faFemale, faHatCowboy, faChild } from '@fortawesome/free-solid-svg-icon
 import { Context } from '../store/appContext';
 import { CardDeck, Card } from 'react-bootstrap'
 
-const Kids = (props) => {
+const Hombres = (props) => {
     const { store, actions } = useContext(Context);
     useEffect(()=>{actions.getProducts()}, []);
 
@@ -15,7 +15,7 @@ const Kids = (props) => {
             <div className="col-lg-3">
                 <h1 className="my-4">Categorias</h1>
                 <div className="list-group">
-                mujer
+                
                     <Link to="/mujer" className="list-group-item"> <FontAwesomeIcon icon={faFemale} /> Mujer </Link>
                     <Link to="/hombre" className="list-group-item"> <FontAwesomeIcon icon={faHatCowboy} /> Hombre</Link>
                     <Link to="/kids" className="list-group-item"> <FontAwesomeIcon icon={faChild} /> Niños </Link>
@@ -25,11 +25,11 @@ const Kids = (props) => {
             </div>
 
             <div className="col-lg-9">
-                <br/><h1>Sección Niños</h1>
+                <br/><h1>Sección Hombres</h1>
                 <CardDeck>
                     {
                         store.productList.map((item, index) => {
-                            {if(item.category === 'Niños'){ 
+                            {if(item.category === 'Hombre'){ 
                             return (
                                 <Card key={index} style={{ width: '19rem' }}>
                                     <Card.Img variant="top" src={item.image} style={{maxHeight:'140px'}} />
@@ -54,4 +54,4 @@ const Kids = (props) => {
     ) 
 }
 
-export default Kids
+export default Hombres
