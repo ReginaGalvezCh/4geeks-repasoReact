@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFemale, faHatCowboy, faChild } from '@fortawesome/free-solid-svg-icons'
 import Slider from '../components/Slider'
@@ -12,9 +14,11 @@ return (
         <div className="col-lg-3">
             <h1 className="my-4">Categorias</h1>
             <div className="list-group">
-                <a href="#" className="list-group-item"><FontAwesomeIcon icon={faFemale} /> Mujer</a>
-                <a href="#" className="list-group-item"><FontAwesomeIcon icon={faHatCowboy} /> Hombre</a>
-                <a href="#" className="list-group-item"><FontAwesomeIcon icon={faChild} /> Niños</a>
+                <Link to="/mujer" className="list-group-item"> <FontAwesomeIcon icon={faFemale} /> Mujer </Link>
+                <Link to="/hombre" className="list-group-item"> <FontAwesomeIcon icon={faHatCowboy} /> Hombre</Link>
+                <Link to="/kids" className="list-group-item"> <FontAwesomeIcon icon={faChild} /> Niños </Link>
+             
+             
             </div>
         </div>
 
