@@ -32,10 +32,10 @@ const App = () => {
               <div>
                 <Switch>
                   <Route exact path="/" component={Home}/>
+                  <Route exact path="/kids" component={Kids} />
                   {/* <Route exact path="/index.html" component={Inicio} />
                   <Route exact path="/mujer" component={Mujer} />
                   <Route exact path="/hombre" component={Hombres} />
-                  <Route exact path="/kids" component={Kids} />
                   <Route exact path="/products" component={Products} />
                   <Route exact path="/tiendas" component={Tiendas} />*/}
 
